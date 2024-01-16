@@ -1,0 +1,103 @@
+/* styles.css */
+
+body {
+    background-color: rgb(200, 228, 251);
+}
+
+#heading {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bigBox {
+    background-color: grey;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-self: auto;
+    padding-top: 20px;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.result {
+    position: relative;
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 350px;
+    height: 120px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+#current {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    font-size: 40px;
+}
+
+#log {
+    text-align: end;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.actionButtons {
+    margin-bottom: 20px;
+}
+
+#clear, #delete {
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: 165px;
+    height: 40px;
+    font-size: 15px;
+}
+
+#clear {
+    background-color: rgb(255, 179, 179);
+}
+
+#delete {
+    background-color: rgb(159, 170, 255);
+}
+
+.numbers {
+    width: 350px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #divide, #multiply, #substract, #add, #period, #equals {
+    width: 75px;
+    height: 60px;
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #zero:hover, #divide:hover, #multiply:hover, #substract:hover, #add:hover, #period:hover, #equals:hover {
+    background-color: rgb(185, 185, 185);
+}
+
+#footer {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
